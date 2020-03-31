@@ -1,0 +1,13 @@
+--Backend
+yarn init -y = criar uma arquivo com informações do projeto
+yarn add express = pacote com facilitadores  - rotas
+Cria arquivo index.js
+
+instal nodemon - atualização automatica do server
+instalar knex = para conexão com banco
+instalar sqlite3
+
+npx knex init - 
+
+--FrontEnd
+npx create-react-app nomeprojeto
