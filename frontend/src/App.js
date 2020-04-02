@@ -1,25 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <div className="title">
-              <h1>Olá mundo</h1>
-          </div>
+import './global.css';
 
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import Routes from './routes';
+
+  function App() {
+    return (
+      <Routes />
+
+    );
+  }
+
+  //exemplo de estado e imutabilidade do contador
+//   const[counter, setCounter]  = useState(20);
+
+//   function incrementCounter() {
+
+//     setCounter(counter + 1);  
+
+//   }
+
+//   return (
+//     <div>
+//        <Header>Contador: {counter}</Header>
+//        <button onClick={incrementCounter}>Incrementar</button>
+
+//     </div>
+  
+//   );
+// }
 
 export default App;
