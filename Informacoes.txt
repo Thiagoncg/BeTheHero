@@ -11,3 +11,5 @@ npx knex init -
 
 --FrontEnd
 npx create-react-app nomeprojeto
+
+--MObile
